@@ -29,11 +29,12 @@ section {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-	width: 1080px;
+	max-width: 1080px;
 	min-height: 100vh;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
+  padding: 0 10%;
 }
 
 .red {
@@ -71,7 +72,7 @@ section {
   font-size: 72px;
 }
 .desc {
-  width: 60%;
+  max-width: 690px;
   margin-bottom: 78px;
   font-size: 18px;
 }
@@ -89,6 +90,13 @@ section {
 .call-to-action:hover {
   background-color: #BB3233;
   color: rgba(255, 255, 255, 0.6);
+}
+@media (max-width: 520px) {
+  .call-to-action {
+    padding: 0 16px;
+    line-height: 64px;
+    font-size: 18px;
+  }
 }
 
 .gallery {
@@ -111,7 +119,7 @@ section {
 }
 #future-caps p,
 #daily-caps p {
-  width: 60%;
+  max-width: 500;
   margin-bottom: 10px;
 }
 
