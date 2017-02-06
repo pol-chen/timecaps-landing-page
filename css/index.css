@@ -1,0 +1,8 @@
+
+@font-face {
+	font-family: 'AdventPro-Regular';
+  src: url('../fonts/adventpro-regular-webfont.woff2') format('woff2'),
+       url('../fonts/adventpro-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
