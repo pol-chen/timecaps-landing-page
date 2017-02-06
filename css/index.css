@@ -177,16 +177,36 @@ a:hover {
 }
 .icon-email {
   background-image: url('../img/email.png');
+  background-image: -webkit-image-set(url('../img/email.png') 1x, url('../img/email@2x.png') 2x);
+  background-image: -moz-image-set(url('../img/email.png') 1x,url('../img/email@2x.png') 2x);
+  background-image: -ms-image-set(url('../img/email.png') 1x,url('../img/email@2x.png') 2x);
+  background-image: -o-image-set(url('../img/email.png') 1x,url('../img/email@2x.png') 2x);
 }
 .icon-twitter {
   background-image: url('../img/twitter.png');
+  background-image: -webkit-image-set(url('../img/twitter.png') 1x, url('../img/twitter@2x.png') 2x);
+  background-image: -moz-image-set(url('../img/twitter.png') 1x,url('../img/twitter@2x.png') 2x);
+  background-image: -ms-image-set(url('../img/twitter.png') 1x,url('../img/twitter@2x.png') 2x);
+  background-image: -o-image-set(url('../img/twitter.png') 1x,url('../img/twitter@2x.png') 2x);
 }
 .icon-instagram {
   background-image: url('../img/instagram.png');
+  background-image: -webkit-image-set(url('../img/instagram.png') 1x, url('../img/instagram@2x.png') 2x);
+  background-image: -moz-image-set(url('../img/instagram.png') 1x,url('../img/instagram@2x.png') 2x);
+  background-image: -ms-image-set(url('../img/instagram.png') 1x,url('../img/instagram@2x.png') 2x);
+  background-image: -o-image-set(url('../img/instagram.png') 1x,url('../img/instagram@2x.png') 2x);
 }
 .icon-weibo {
   background-image: url('../img/weibo.png');
+  background-image: -webkit-image-set(url('../img/weibo.png') 1x, url('../img/weibo@2x.png') 2x);
+  background-image: -moz-image-set(url('../img/weibo.png') 1x,url('../img/weibo@2x.png') 2x);
+  background-image: -ms-image-set(url('../img/weibo.png') 1x,url('../img/weibo@2x.png') 2x);
+  background-image: -o-image-set(url('../img/weibo.png') 1x,url('../img/weibo@2x.png') 2x);
 }
 .icon-github {
   background-image: url('../img/github.png');
+  background-image: -webkit-image-set(url('../img/github.png') 1x, url('../img/github@2x.png') 2x);
+  background-image: -moz-image-set(url('../img/github.png') 1x,url('../img/github@2x.png') 2x);
+  background-image: -ms-image-set(url('../img/github.png') 1x,url('../img/github@2x.png') 2x);
+  background-image: -o-image-set(url('../img/github.png') 1x,url('../img/github@2x.png') 2x);
 }
