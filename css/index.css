@@ -19,7 +19,7 @@ body, h1, h2, h3, h4, h5, h6, p {
 body {
 	background-color: #F1F0EB;
 	color: #2D3849;
-	font-family: 'AdventPro-Regular', serif;
+	font-family: 'AdventPro-Regular', 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Nimbus Sans L', Arial, 'Liberation Sans', 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Source Han Sans CN', 'Source Han Sans SC', 'Microsoft YaHei', 'Wenquanyi Micro Hei', 'WenQuanYi Zen Hei', 'ST Heiti', SimHei, 'WenQuanYi Zen Hei Sharp', sans-serif;
 	font-size: 14px;
   border-top: 6px solid #EF4142;
 }
