@@ -6,3 +6,145 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+* {
+	box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: #F1F0EB;
+	color: #2D3849;
+	font-family: 'AdventPro-Regular', serif;
+	font-size: 14px;
+  border-top: 6px solid #EF4142;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	width: 1080px;
+	min-height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.red {
+  color: #EF4142;
+}
+
+#header .brand {
+  flex-grow: auto;
+  flex-basis: 1;
+  margin: 30px 0 0 0;
+}
+
+.localization {
+  color: #7B828A;
+}
+.localization a {
+  text-decoration: none;
+}
+.localization a.active {
+  color: #2D3849;
+}
+
+#header .cover {
+  /*background-color: rgba(255, 0, 0, 0.5);*/
+	display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+	flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.slogan {
+  margin-bottom: 18px;
+  font-size: 72px;
+}
+.desc {
+  width: 60%;
+  margin-bottom: 78px;
+  font-size: 18px;
+}
+.call-to-action {
+  width: auto;
+  padding: 0 26px;
+  line-height: 80px;
+  background-color: #EF4142;
+  color: #FFF;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+  transition: .25s all ease-in-out;
+}
+.call-to-action:hover {
+  background-color: #BB3233;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.gallery {
+  margin-bottom: 32px;
+}
+.screenshot {
+  width: 311px;
+  margin-right: 10px;
+  border: 1px solid #7B828A;
+}
+.screenshot:last-child {
+  margin-right: 0;
+}
+
+#future-caps h2,
+#daily-caps h2 {
+  margin-bottom: 20px;
+  color: #EF4142;
+  font-size: 24px;
+}
+#future-caps p,
+#daily-caps p {
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+#footer .contact {
+  margin-top: 160px;
+  font-size: 18px;
+}
+#footer p {
+  margin-bottom: 10px;
+}
+
+.social {
+  margin-top: 24px;
+}
+.social a {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.icon-email {
+  background-image: url('../img/email.png');
+}
+.icon-twitter {
+  background-image: url('../img/twitter.png');
+}
+.icon-instagram {
+  background-image: url('../img/instagram.png');
+}
+.icon-weibo {
+  background-image: url('../img/weibo.png');
+}
+.icon-github {
+  background-image: url('../img/github.png');
+}
