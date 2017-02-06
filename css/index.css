@@ -129,7 +129,6 @@ a:hover {
 }
 .screenshot:last-child {
   margin-right: 0;
-  margin-bottom: 0;
 }
 @media (max-width: 340px) {
   .screenshot {
