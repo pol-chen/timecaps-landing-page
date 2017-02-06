@@ -37,6 +37,14 @@ section {
   padding: 0 10%;
 }
 
+a {
+  color: #EF4142;
+  transition: .25s all ease-in-out;
+}
+a:hover {
+  color: #BB3233;
+}
+
 .red {
   color: #EF4142;
 }
@@ -47,14 +55,21 @@ section {
   margin: 30px 0 0 0;
 }
 
+.home {
+  display: block;
+  cursor: pointer;
+}
+
 .localization {
   color: #7B828A;
 }
 .localization a {
+  color: #7B828A;
   text-decoration: none;
 }
-.localization a.active {
-  color: #2D3849;
+.localization a.active,
+.localization a:hover {
+  color: #EF4142;
 }
 
 #header .cover {
@@ -85,7 +100,6 @@ section {
   font-size: 24px;
   text-decoration: none;
   text-align: center;
-  transition: .25s all ease-in-out;
 }
 .call-to-action:hover {
   background-color: #BB3233;
