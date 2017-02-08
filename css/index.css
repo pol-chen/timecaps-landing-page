@@ -117,6 +117,12 @@ a:hover {
     font-size: 18px;
   }
 }
+.special {
+  max-width: 486px;
+	margin-top: 14px;
+  color: #EF4142;
+	font-size: 12px;
+}
 
 .gallery {
   margin-bottom: 32px;
