@@ -145,18 +145,21 @@ a:hover {
 }
 
 #future-caps,
-#daily-caps {
+#daily-caps,
+#cap-workshop {
   padding-bottom: 40px;
 }
 
 #future-caps h2,
-#daily-caps h2 {
+#daily-caps h2,
+#cap-workshop h2 {
   margin-bottom: 20px;
   color: #EF4142;
   font-size: 24px;
 }
 #future-caps p,
-#daily-caps p {
+#daily-caps p,
+#cap-workshop p {
   max-width: 500px;
   margin-bottom: 10px;
 }
