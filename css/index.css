@@ -218,3 +218,56 @@ a:hover {
   background-image: -ms-image-set(url('../img/github.png') 1x,url('../img/github@2x.png') 2x);
   background-image: -o-image-set(url('../img/github.png') 1x,url('../img/github@2x.png') 2x);
 }
+
+form {
+	margin: 40px 0;
+	width: 100%;
+}
+
+label {
+  display: inline-block;
+	margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+	max-width: 480px;
+  height: 34px;
+  padding: 6px 12px;
+	font-family: 'AdventPro-Regular', 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Nimbus Sans L', Arial, 'Liberation Sans', 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Source Han Sans CN', 'Source Han Sans SC', 'Microsoft YaHei', 'Wenquanyi Micro Hei', 'WenQuanYi Zen Hei', 'ST Heiti', SimHei, 'WenQuanYi Zen Hei Sharp', sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.button {
+  width: auto;
+  padding: 8px 12px;
+  line-height: 80px;
+  background-color: #EF4142;
+  color: #FFF;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+	cursor: pointer;
+}
+.button:hover {
+  background-color: #BB3233;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.alert {
+	color: #EF4142;
+}
