@@ -75,7 +75,7 @@
       var p1 = $("[name=password1]");
       if(p.val()!=p1.val()){
         $("#error").show();
-        $("#error").text("Passwords do not match >_<");
+        $("#error").text("Passwords do not match. / 两次密码不一致。 >_<");
       }
       if(p.val()&&p1.val()&&p.val()==p1.val()){
         $.jsonp({
@@ -86,13 +86,13 @@
           success:function(result){
             $("#error").show();
             if(result.error){
-              $("#error").text(result.error);
+              $("#error").text("Link expired, please get a new link from the app. / 链接已过期，请重新在 app 中点击「忘记密码」获取新链接。 >_<");
             }else{
-              $("#error").text("Reset password succeeded ^_^");
+              $("#error").text("Reset password succeeded! / 重设密码成功！ ^_^");
             }
           },
           error:function(result,text){
-            $("#error").text("Server error >_<");
+            $("#error").text("Server error, please try again later. / 服务器错误，请稍后再试。 >_<");
           }
         });
       }
